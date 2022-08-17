@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+    $("#div4").fadeToggle(2000);
+    $("#div5").fadeToggle(1000);
+  });
+});
+</script>
+</head>
+<body>
+
+<p>hello My name is vishwa.</p>
+
+<button>Click to fade in/out boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;background-color:rgb(99, 54, 204);"></div>
+<br>
+<div id="div2" style="width:80px;height:80px;background-color:rgb(255, 225, 57);"></div>
+<br>
+<div id="div3" style="width:80px;height:80px;background-color:rgb(63, 207, 171);"></div>
+<br>
+<div id="div4" style="width:80px;height:80px;background-color:rgb(255, 86, 199);"></div>
+<br>
+<div id="div5" style="width:80px;height:80px;background-color:rgb(233, 12, 12);"></div>
+</body>
+</html>

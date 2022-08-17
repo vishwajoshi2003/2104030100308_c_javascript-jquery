@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").css("color", "purple") 
+    .slideUp(2000)
+      .slideDown(2000);
+    $("#p2").css("color", "purple")
+      .slideUp(2000)
+      .slideDown(2000);
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="p1">hello!!</p>
+<p id="p2">My name is Vishwa</p>
+
+<button>Click me</button>
+
+</body>
+</html>
